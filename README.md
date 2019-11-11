@@ -1,9 +1,42 @@
 # Locally
 ## SYU 19-2 Software Project
 ### Locally
-- indroduction : 소개 및 account 페이지
-- locally :프로젝트
-- main : 앱 / 메인페이지
+### Locally
 
-- 유림이 컴퓨터에서 잘 올라가나요?
-- 우리 함께 확인해봅시다 호호
+#### Introduction
+
+- 소개글 및 디자인
+  - templates
+- user accounts
+  - templates
+    - 원페이지
+    - 회원가입, 로그인 div
+  - model
+    - 아이디
+    - 거주지
+    - 비밀번호
+    - 비밀번호 재입력
+    - 이름
+    - 이메일
+
+#### main
+
+- 메인 페이지
+  - header
+    - 로고
+    - 네브바
+      - 서울시
+        - 주택
+        - 경제
+        - 교통
+        - 환경
+        - 복지
+        - 안전
+        - 문화
+        - 행정
+      - 구
+        - 
+      - 커뮤니티(나이, )
+        - 자유게시판
+  - body
+  - footer
