@@ -5,4 +5,7 @@ def index(request):
 
 def register(request):
     return render(request, 'main/register.html')
+<<<<<<< HEAD
 
+=======
+>>>>>>> 85db969e7ae19025a3c3ec7abca75d601882eb83
