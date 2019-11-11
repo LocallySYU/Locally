@@ -1314,3 +1314,17 @@ $window.on('resize', function(){
 });
 //end of IIFE function
 })();
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+	slidesPerView: 4,
+	spaceBetween: 30,
+	centeredSlides: true,
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: true,
+	},
+	allowTouchMove : true 
+  });
+</script>
