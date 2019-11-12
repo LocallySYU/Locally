@@ -1315,8 +1315,8 @@ $window.on('resize', function(){
 //end of IIFE function
 })();
 
-<!-- Initialize Swiper -->
-<script>
+// <!-- Initialize Swiper -->
+{/* <script> */}
   var swiper = new Swiper('.swiper-container', {
 	slidesPerView: 4,
 	spaceBetween: 30,
@@ -1327,4 +1327,4 @@ $window.on('resize', function(){
 	},
 	allowTouchMove : true 
   });
-</script>
+// </script>
