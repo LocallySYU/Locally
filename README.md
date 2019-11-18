@@ -8,7 +8,6 @@
 - 소개글 및 디자인
   - templates
 - user accounts
-pip install django-allauth
   - templates
     - 원페이지
     - 회원가입, 로그인 div
