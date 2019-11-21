@@ -12,7 +12,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">
 
     <!-- Bootstrap core CSS -->
-<link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
     <style>
@@ -24,7 +24,6 @@
         -ms-user-select: none;
         user-select: none;
       }
-
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -61,36 +60,52 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-                <label for="country">거주지 시/도</label>
-                <select class="custom-select d-block w-100" id="country" required>
-                  <option value="">선택해주세요...</option>
-                  <option>서울시</option>
-                  <option>경기도</option>
-                  <option>강원도</option>
-                  <option>충청도</option>
-                  <option>경상도</option>
-                  <option>전라도</option>
-                  <option>제주도</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid country.
-                </div>
-              </div>
-        </div>
-
-        <div class="mb-3">
-          <label for="username">비밀번호 재입력</label>
-          <div class="input-group">
-            <input type="text" class="form-control" id="repassword" placeholder="Repassword" required>
-            <div class="invalid-feedback" style="width: 100%;">
+            <label for="Password">비밀번호 재입력</label>
+            <input type="text" class="form-control" id="Password" placeholder="Password" value="" required>
+            <div class="invalid-feedback">
               Valid Password is required.
             </div>
           </div>
         </div>
 
+        <!-- 거주지 시/도 -->
+        <div class="row">
+          <div class="col-md-6 mb-3">
+              <label for="country">거주지 시/도</label>
+              <select class="custom-select d-block w-100" id="country" required>
+                <option value="">선택해주세요...</option>
+                <option>서울시</option>
+                <option>경기도</option>
+                <option>강원도</option>
+                <option>충청도</option>
+                <option>경상도</option>
+                <option>전라도</option>
+                <option>제주도</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+          </div>
+          <div class="col-md-6 mb-3">
+              <label for="country">거주지 시/도</label>
+              <select class="custom-select d-block w-100" id="country" required>
+                <option value="">선택해주세요...</option>
+                <option>서울시</option>
+                <option>경기도</option>
+                <option>강원도</option>
+                <option>충청도</option>
+                <option>경상도</option>
+                <option>전라도</option>
+                <option>제주도</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+          </div>
+        </div>
 
         <div class="mb-3">
-          <label for="username">이름</label>
+          <label for="username">닉네임</label>
           <div class="input-group">
             <input type="text" class="form-control" id="username" placeholder="Username" required>
             <div class="invalid-feedback" style="width: 100%;">
